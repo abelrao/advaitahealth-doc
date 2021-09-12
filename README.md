@@ -12,5 +12,5 @@ AdvaitaHealth doc
 
 ## 合约代码
 
-* [ Contract Code](https://github.com/abortrao/ink-example/tree/main/advaita_health_contract)
+* [Contract Code](https://github.com/abortrao/ink-example/tree/main/advaita_health_contract)
 * [polkadot-js-contract](https://polkadot.js.org/docs/api-contract/start/contract.tx)
