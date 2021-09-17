@@ -37,4 +37,6 @@ AdvaitaHealth doc
     // 传统问卷列表
     pub fn tradition_survey_list(&self) -> Vec<Survey> {}
 
-tips: 具体怎调用合约请参考 [polkadot-js-contract](https://polkadot.js.org/docs/api-contract/start/contract.tx) 这部分的API
+tips: 
+* 具体怎调用合约请参考 [polkadot-js-contract](https://polkadot.js.org/docs/api-contract/start/contract.tx) 这部分的API
+* [canvas-ui](https://github.com/paritytech/canvas-ui)
