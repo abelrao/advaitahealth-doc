@@ -37,6 +37,19 @@ AdvaitaHealth doc
     // 传统问卷列表
     pub fn tradition_survey_list(&self) -> Vec<Survey> {}
 
+    // 添加处方
+    pub fn add_prescription(&mut self, info: Prescription) {}
+    // 查看单个处方
+    pub fn get_prescription(&self, index: u64) -> Prescription {}
+    // 处方列表 
+    pub fn prescription_list(&self) -> Vec<Prescription> {}
+
+
+
+
+
 tips: 
+* 暂时先提供基础功能，具体的业务逻辑确定，随时沟通
 * 具体怎调用合约请参考 [polkadot-js-contract](https://polkadot.js.org/docs/api-contract/start/contract.tx) 这部分的API
-* [canvas-ui](https://github.com/paritytech/canvas-ui)
+* [canvas-ui](https://github.com/paritytech/canvas-ui) 使用这个工具可以部署调用合约
+* 必须部署包含合约模块的 substrate 节点，substrate 全节点和 substrate-contract-node 都支持 
