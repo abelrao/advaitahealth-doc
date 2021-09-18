@@ -52,4 +52,5 @@ tips:
 * 暂时先提供基础功能，具体的业务逻辑确定，随时沟通
 * 具体怎调用合约请参考 [polkadot-js-contract](https://polkadot.js.org/docs/api-contract/start/contract.tx) 这部分的API
 * [canvas-ui](https://github.com/paritytech/canvas-ui) 使用这个工具可以部署调用合约
+* 这里提供一个合约文件，可以直接部署，[合约文件](https://github.com/abortrao/ink-example/tree/main/contract/advaita_health)
 * 必须部署包含合约模块的 substrate 节点，substrate 全节点和 substrate-contract-node 都支持 
